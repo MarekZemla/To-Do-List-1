@@ -1,17 +1,19 @@
 body {
-    margin: 50px;
+    margin-top: 50px;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: #000;
     color: white;
 }
 
 form {
-
     margin: 20px
 }
 
 ul {
     font-size: 24px;
-    ;
 }
 
 button:hover {
@@ -21,5 +23,4 @@ button:hover {
 .search {
     display: inline-block;
     font-size: 24px;
-    ;
 }
